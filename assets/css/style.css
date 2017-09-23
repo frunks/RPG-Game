@@ -1,0 +1,55 @@
+/*body {*/
+    /*background-image:url('../img/spinningpokeball.gif');*/
+    /*background-repeat: repeat-x repeat-y;*/
+/*}*/
+
+#userJumboTron,
+#enemyJumboTron {
+    padding: 10px 0 10px 0;
+    margin: 10px 10px 10px 10px;
+}
+
+.monPen {
+    position: relative;
+    text-align: center;
+}
+
+.pokemon {
+    display: inline-block;
+}
+
+.pokemon:hover {
+    background-color: #868f8f;
+}
+
+.pokemon.unselected:active {
+    background-color: #06c930;
+}
+
+.pokemon.player:active {
+    background-color: #06c930;
+}
+
+.pokemon.enemy:active {
+    background-color: #dc143c;
+}
+
+.pokeStat {
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.pokeStat {
+    font-size: small;
+    margin-bottom: 0px;
+}
+
+.pokeImg {
+    min-height: 120px;
+}
+
+h3,
+.footer {
+    color: #000000;
+    text-align: center;
+}
